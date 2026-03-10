@@ -1,11 +1,26 @@
-<div align="center">
+# Orbit Deck
 
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
+Orbit Deck es una consola operativa profesional-personal para coordinar proyectos, recursos, agentes, documentación, versiones y automatizaciones desde una sola superficie, sin reemplazar las herramientas externas especializadas.
 
-  <h1>Built with AI Studio</h2>
+## Arquitectura
 
-  <p>The fastest path from prompt to production with Gemini.</p>
+Orbit Deck es una aplicación Full-Stack construida con:
+- **Frontend**: React, Zustand, Tailwind CSS, Lucide React, React Router DOM.
+- **Backend**: Node.js, Express, Vite (Middleware).
+- **Persistencia**: SQLite (via `better-sqlite3`).
 
-  <a href="https://aistudio.google.com/apps">Start building</a>
+## Fases de Desarrollo
 
-</div>
+- **Fase 1**: Shell global, navegación, Mission Control, Registro maestro, taxonomía de estados.
+- **Fase 2**: Lógica de estado real, Dashboard de Proyecto, acciones de Zustand.
+- **Fase 3A**: Hardening técnico, persistencia fundacional end-to-end con SQLite y Express.
+
+## Ejecución
+
+Para ejecutar la aplicación en modo desarrollo:
+
+```bash
+npm run dev
+```
+
+El servidor se iniciará en `http://localhost:3000`.
